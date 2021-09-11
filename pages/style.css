@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #011627;
+}
+header h3{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 30px;
+    color: #FF9F1C;
+}
+p{
+    color: #011627;
+}
+main{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.card-1{
+    width: 20%;
+    height:400px;
+    background-color: #E71D36;
+}
+.card-2{
+    width: 20%;
+    height:400px;
+    background-color: #E71D36;
+}
+.card-3{
+    width: 20%;
+    height:400px;
+    background-color: #E71D36;
+}
+.card-1, .card-2, .card-3 {
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 20px;
+    
+}
+h4{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: 600px;
+    color: #011627;
+}
+p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 27px;
+    font-weight:bold;
+}
+li{
+    list-style: none;
+    position: relative;
+    top: 100px;
+    font-size: 25px;
+}
+
+.click{
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    position: relative;
+    top: 140px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #FF9F1C;
+    border-color: #FF9F1C;
+    border-right:#FF9F1C ;
+    border-left: #FF9F1C;
+    border-bottom: #FF9F1C;
+    border-top: #FF9F1C;
+    background-color: #FF9F1C
+
+
+}
+.one{
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    position: relative;
+    top: 170px;
+    font-family: 'Montserrat', sans-serif;
+    border-color: #FF9F1C;
+    border-right:#FF9F1C ;
+    border-left: #FF9F1C;
+    border-bottom: #FF9F1C;
+    border-top: #FF9F1C;
+    background-color: #FF9F1C;
+}
+.two{
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    border-color: #FF9F1C;
+    border-right:#FF9F1C ;
+    border-left: #FF9F1C;
+    border-bottom: #FF9F1C;
+    border-top: #FF9F1C;
+    background-color: #FF9F1C;
+    position: relative;
+    top: 135px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #FF9F1C;
+
+}
+.card-3 p{
+    text-align: center;
+}
+.ul-class_3{
+    position: relative;
+    bottom: 30px;
+}
+.click,.one,.two{
+    cursor: pointer;
+}
+@media (max-width: 900px) {
+    main{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .card-1,.card-2,.card-3{
+        width: 400px;
+    }
+}
+@media (max-width: 1000px){
+    .one{
+        position: relative;
+        top: 160px;   }
+}
